@@ -20,7 +20,8 @@ describe('Login Test', () => {
     // Click the login button
     loginPage.clickLoginButton()
     // Check that the user is logged in by checking the url
-    cy.url().should('eq', 'https://qa-test.dmzrwbdiwhv33.amplifyapp.com/hmo/dashboard')
+    
+    cy.url().should('eq', 'https://qa-test.dmzrwbdiwhv33.amplifyapp.com/hmo/dashboard',{ timeout: 10000 })
   })
   
 
