@@ -2,7 +2,7 @@
 
 ## Summary
 
-A test suite for the Topset application that is written with cypress.
+A test suite for the Curacel application that is written with cypress.
 
 ## Design Pattern
 Utilizes the page object model design pattern.
